@@ -40,7 +40,7 @@ for l = 1 : lmax
     nums = [nums,max(size(Geom))-1];
   
 	% Assemble the matrix
-	A = MatAssembly(Geom,method);
+	A = mkMatrix(Geom,method);
     
 	% Assemble the RHS
 	U = mkRHS(Geom,geometry,method);
