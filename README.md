@@ -17,6 +17,5 @@ let me know. It might make my day. Also, if you add stuff, let me know. I will c
 * Its simple to understand,
 * It does not rely on external libraries,
 * It can be open sourced and put up here,
-i will add it.
 
-I will soon add a .tex file and .pdf of a small documentation, with suitable references to the established literature. If you use this code, that can also be used as a citation.    
+i will add it. Soon i will also push a .tex file and .pdf of a small documentation, with suitable references to the established literature. If you use this code, that can also be used as a citation.    
