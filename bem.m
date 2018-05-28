@@ -17,7 +17,7 @@ close all;
 num = 4;
 lmax = 5;
 % Choose Method: 'c' for collocation, 'g' for Galerkin
-method = 'g'
+method = 'c'
 % Choose Geometry and corresponding rhs. 'l' for LShape, 's' for circle
 geometry = 'l';
 
@@ -40,7 +40,7 @@ for l = 1 : lmax
     nums = [nums,max(size(Geom))-1];
   
 	% Assemble the matrix
-	A = mkMatrix(Geom,method);
+	A = mkMat(Geom,method);
     
 	% Assemble the RHS
 	U = mkRHS(Geom,geometry,method);
