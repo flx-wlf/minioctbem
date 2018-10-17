@@ -10,7 +10,7 @@ Thus, supervisors often are hesitant to hand out topics related to boundary elem
 This code might, in some cases, fix this issue: It is small enough to know every routine by heart after a short study of the sources and simple enough to start experimenting right away: I often sacraficed performance for readability.
 Also: It is standalone in nature, thus not relying on external libraries. 
 
-Maybe, this code might enable someone to start a thesis, which otherwise might not be feasible w.r.t. to the time required by, for example, getting to know more extensive BEM codes ([BEMBEL](https://www.bembel.eu/), [BEM++](https://bempp.com/), [BETL](http://www.sam.math.ethz.ch/betl/), ...); or to start with a blank slate and cover the basics.
+Maybe, this code might enable someone to start a thesis, which otherwise might not be feasible w.r.t. to the time required by, for example, getting to know more extensive BEM codes ([BEMBEL](http://www.bembel.eu/), [BEM++](https://bempp.com/), [BETL](http://www.sam.math.ethz.ch/betl/), ...); or to start with a blank slate and cover the basics.
 
 **If you use this code**
 let me know. It might make my day. Also, if you add stuff, let me know. I will check it out, and if it satisfies the requirements I have for this code, i.e.,
